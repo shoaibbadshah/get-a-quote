@@ -1,8 +1,31 @@
 import Image from "next/image";
+import emailjs from "emailjs-com";
+
 import style from "../styles/Home.module.css";
 import logo from "../public/logo.png";
 
 export default function Home() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7g2ctsg",
+        "template_q3ha0jc",
+        e.target,
+        "user_CiS0rUikfIwSOwjmuIaC9"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className={style.main__img}>
       <div className="ml-64 w-1/2">
@@ -38,6 +61,51 @@ export default function Home() {
               <br /> and web projects, let us know about
               <br /> you and your business.
             </p>
+            {/* form here */}
+            <form onSubmit={sendEmail} className="mt-8">
+              <input
+                type="text"
+                className="border p-2 text-lg"
+                name="first_name"
+                placeholder="First Name *"
+              />
+              <input
+                type="text"
+                className="border p-2 text-lg ml-3"
+                name="last_name"
+                placeholder="Last Name *"
+              />
+              <br />
+
+              <input
+                type="email"
+                className="border p-2 text-lg mt-5"
+                name="user_email"
+                placeholder="Work Email *"
+              />
+              <br />
+
+              <input
+                type="tel"
+                className="border p-2 text-lg mt-5 mr-0"
+                name="phone"
+                placeholder="Phone *"
+              />
+              <br />
+
+              <input
+                type="text"
+                className="border p-2 text-lg mt-5"
+                name="company_name"
+                placeholder="Company Name *"
+              />
+              <br />
+              <input
+                type="submit"
+                value="Download Now"
+                className="border p-3 text-lg mt-5 bg-red-500 rounded"
+              />
+            </form>
           </div>
         </div>
       </div>

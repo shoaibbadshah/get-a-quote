@@ -11,3 +11,8 @@
   object-position: center;
   background-repeat: no-repeat;
 }
+
+.inputing {
+  border: 1px solid lightgray;
+  border: 3px;
+}

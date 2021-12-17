@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="text-black text-xl font-bold">
               Download Our Portfolio
             </h2>
-            <p className="text-black text-xl">
+            <p className="text-black text-lg mt-3">
               To access our portfolio of mobile apps
               <br /> and web projects, let us know about
               <br /> you and your business.

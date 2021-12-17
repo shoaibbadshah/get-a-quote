@@ -52,7 +52,7 @@ export default function Home() {
 
         {/* right side */}
         <div className="w-1/2">
-          <div className="bg-white w-fit p-4 border rounded-md">
+          <div className="bg-white w-fit p-6 border rounded-md">
             <h2 className="text-black text-xl font-bold">
               Download Our Portfolio
             </h2>
@@ -65,13 +65,14 @@ export default function Home() {
             <form onSubmit={sendEmail} className="mt-8">
               <input
                 type="text"
-                className="border p-2 text-lg"
+                className="border p-3 text-xl w-full"
                 name="first_name"
                 placeholder="First Name *"
               />
+              <br />
               <input
                 type="text"
-                className="border p-2 text-lg ml-3"
+                className="border p-2 text-lg mt-5 w-full"
                 name="last_name"
                 placeholder="Last Name *"
               />
@@ -79,7 +80,7 @@ export default function Home() {
 
               <input
                 type="email"
-                className="border p-2 text-lg mt-5"
+                className="border p-2 text-lg mt-5 w-full"
                 name="user_email"
                 placeholder="Work Email *"
               />
@@ -87,7 +88,7 @@ export default function Home() {
 
               <input
                 type="tel"
-                className="border p-2 text-lg mt-5 mr-0"
+                className="border p-2 text-lg mt-5 w-full"
                 name="phone"
                 placeholder="Phone *"
               />
@@ -95,7 +96,7 @@ export default function Home() {
 
               <input
                 type="text"
-                className="border p-2 text-lg mt-5"
+                className="border p-2 text-lg mt-5 w-full"
                 name="company_name"
                 placeholder="Company Name *"
               />
@@ -103,7 +104,7 @@ export default function Home() {
               <input
                 type="submit"
                 value="Download Now"
-                className="border p-3 text-lg mt-5 bg-red-500 rounded"
+                className="border p-3 text-lg mt-5 text-white font-bold bg-red-500 rounded px-12"
               />
             </form>
           </div>

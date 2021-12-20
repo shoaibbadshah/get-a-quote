@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 
 import style from "../styles/Home.module.css";
 import logo from "../public/logo.png";
+import portfolio from "../public/portfolio.png";
 
 export default function Home() {
   const sendEmail = (e) => {
@@ -48,6 +49,15 @@ export default function Home() {
             Complete the following form to download our app and software
             development portfolio.
           </p>
+          <div className="text-center ml-64">
+            <Image
+              className="text-center"
+              src={portfolio}
+              width={300}
+              height={350}
+              objectFit="contain"
+            />
+          </div>
         </div>
 
         {/* right side */}

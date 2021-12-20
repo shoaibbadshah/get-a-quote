@@ -30,21 +30,21 @@ export default function Home() {
   return (
     <div>
       <div className={style.main__img}>
-        <div className="ml-64 w-1/2">
+        <div className="ml-64">
           <Image src={logo} width={220} objectFit="contain" height={97} />
         </div>
 
         <div className="flex">
           {/* left side */}
-          <div>
-            <h1 className="text-6xl ml-64 font-bold text-white mt-10 ">
+          <div className="ml-64 w-1/2">
+            <h1 className="text-6xl font-bold text-white mt-10 ">
               Download our app <br /> development portfolio.
             </h1>
-            <p className="text-white ml-64 mt-10 text-2xl">
+            <p className="text-white mt-10 text-2xl">
               Complete the following form to download our app and software
               development portfolio.
             </p>
-            <div className="text-center ml-64 mt-10">
+            <div className="text-center mt-10">
               <Image
                 className="text-center"
                 src={portfolio}

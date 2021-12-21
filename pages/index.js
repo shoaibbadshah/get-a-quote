@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </div>
       <p className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row">
-        Copyright © 2021 Alpha Bravo Development, LLC |
+        Copyright © 2021 Neben Solutions |
         <a href="" className="text-blue-700 ml-5 mr-5">
           Privacy Policy
         </a>

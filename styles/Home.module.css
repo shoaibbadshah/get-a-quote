@@ -16,3 +16,8 @@
   border: 1px solid lightgray;
   border: 3px;
 }
+
+.font__family {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+}

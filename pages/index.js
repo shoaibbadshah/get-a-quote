@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div>
       <div className={style.main__img}>
-        <div className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-64">
+        <div className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64">
           <Image src={logo} width={220} objectFit="contain" height={97} />
         </div>
 
@@ -47,7 +47,7 @@ export default function Home() {
               Complete the following form to download our app and software
               development portfolio.
             </p>
-            <div className="text-center mt-10 2xl:mb-20">
+            <div className="text-center mt-10 md:mb-14 xl:mb-16 2xl:mb-20">
               <Image
                 className="text-center"
                 src={portfolio}
@@ -70,7 +70,7 @@ export default function Home() {
                 <br /> you and your business.
               </p>
               {/* form here */}
-              <form onSubmit={sendEmail} className="mt-8">
+              <form onSubmit={sendEmail} className="mt-5 lg:mt-0">
                 <input
                   type="text"
                   className="border pl-3 p-2 md:p-3 md:text-xl w-full lg:w-40 rounded"
@@ -126,7 +126,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row">
+      <p
+        className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row"
+        style={style.font__family}
+      >
         Copyright © 2021 Neben Solutions |
         <a href="" className="text-blue-700 ml-5 mr-5">
           Privacy Policy

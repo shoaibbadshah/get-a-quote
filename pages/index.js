@@ -126,14 +126,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="font-montserrat text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row">
-        Copyright © 2021 Neben Solutions |
-        <a href="" className="text-blue-700 ml-5 mr-5">
-          Privacy Policy
-        </a>
-        <a href="#" className="text-blue-700 ">
-          Contact Us
-        </a>
+      <p className="font-montserrat font-semibold text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row">
+        Copyright © 2021 Neben Solutions
+        <span className="font-normal">
+          |
+          <a href="" className="text-blue-700 ml-3 mr-3">
+            Privacy Policy
+          </a>
+          <a href="#" className="text-blue-700 ">
+            Contact Us
+          </a>
+        </span>
       </p>
       <div className="w-min">
         <Drift

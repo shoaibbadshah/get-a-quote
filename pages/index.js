@@ -109,7 +109,7 @@ export default function Home() {
 
                   <input
                     type="text"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
+                    className="border text-lg font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
                     name="company_name"
                     required
                     placeholder="Company Name *"
@@ -118,7 +118,7 @@ export default function Home() {
                   <input
                     type="submit"
                     value="DOWNLOAD NOW"
-                    className="shadow-md shadow-gray-400 font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 text-white font-bold bg-red-500 rounded px-5 md:px-12"
+                    className="shadow-md shadow-gray-400 text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 text-white md:font-bold bg-red-500 rounded md:px-5 md:px-12"
                   />
                 </form>
               </div>

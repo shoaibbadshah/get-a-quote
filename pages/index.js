@@ -2,7 +2,7 @@ import Image from "next/image";
 import emailjs from "emailjs-com";
 
 import style from "../styles/Home.module.css";
-import logo from "../public/logo.png";
+import logo from "../public/logo1.png";
 import portfolio from "../public/portfolio.png";
 import { Drift } from "react-drift";
 
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div>
       <div className={style.main__img}>
-        <div className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64">
+        <div className="text-center brightness-200 contrast-200 md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64">
           <Image src={logo} width={220} objectFit="contain" height={97} />
         </div>
 
@@ -118,8 +118,8 @@ export default function Home() {
                 <br />
                 <input
                   type="submit"
-                  value="Download Now"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-5 text-white font-bold bg-red-500 rounded px-5 md:px-12"
+                  value="DOWNLOAD NOW"
+                  className="border shadow-xl shadow-gray-500  pl-3 p-2 md:p-3 md:text-xl mt-5 text-white font-bold bg-red-500 rounded px-5 md:px-12"
                 />
               </form>
             </div>
@@ -128,9 +128,9 @@ export default function Home() {
       </div>
       <p className="font-montserrat font-semibold text-center md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 mt-2 mb-3 flex flex-col md:flex-row">
         Copyright © 2021 Neben Solutions
-        <span className="font-normal">
+        <span className="ml-2 font-normal">
           |
-          <a href="" className="text-blue-700 ml-3 mr-3">
+          <a href="" className="text-blue-700 ml-2 mr-2">
             Privacy Policy
           </a>
           <a href="#" className="text-blue-700 ">

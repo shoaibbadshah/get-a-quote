@@ -32,7 +32,6 @@ export default function Home() {
 
   return (
     <div>
-      {/* <Drift appId="anwzpfzknn4p" /> */}
       <div className={style.main__img}>
         <div className="text-center md:text-left md:ml-10 lg:ml-20 xl:ml-64">
           <Image src={logo} width={220} objectFit="contain" height={97} />
@@ -40,7 +39,7 @@ export default function Home() {
 
         <div className="md:flex">
           {/* left side */}
-          <div className="md:ml-10 lg:ml-20 xl:ml-64 lg:w-1/2">
+          <div className="md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 lg:w-1/2">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
               Download our app development portfolio.
             </h1>
@@ -48,7 +47,7 @@ export default function Home() {
               Complete the following form to download our app and software
               development portfolio.
             </p>
-            <div className="text-center mt-10 xl:mb-40">
+            <div className="text-center mt-10 2xl:mb-20">
               <Image
                 className="text-center"
                 src={portfolio}
@@ -140,7 +139,7 @@ export default function Home() {
         <Drift
           appId="anwzpfzknn4p"
           userId="123"
-          attributes={{ email: "paul@borza.ro" }}
+          attributes={{ email: "shoaibbadshah2@gmail.com" }}
           config={{ locale: "en-US" }}
         />
       </div>

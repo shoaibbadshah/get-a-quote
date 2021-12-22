@@ -6,8 +6,6 @@ import logo from "../public/logo2.png";
 import portfolio from "../public/portfolio.png";
 import { Drift } from "react-drift";
 
-// import Drift from "react-driftjs";
-
 export default function Home() {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -59,12 +57,12 @@ export default function Home() {
           </div>
 
           {/* right side */}
-          <div className="flex justify-center p-5 md:mr-3 lg:w-1/2">
+          <div className="flex justify-center md:justify-start p-5 md:mr-3 lg:w-1/2">
             <div className="bg-gray-50 w-fit h-min p-3 md:p-6 border rounded-md">
               <h2 className="text-black font-montserrat text-xl font-bold">
                 Download Our Portfolio
               </h2>
-              <p className="text-black font-montserrat lg:text-lg mt-3">
+              <p className="text-gray-500 font-montserrat lg:text-lg mt-3">
                 To access our portfolio of mobile apps
                 <br /> and web projects, let us know about
                 <br /> you and your business.
@@ -83,7 +81,7 @@ export default function Home() {
 
                 <input
                   type="text"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 lg:ml-5 w-full lg:w-40 rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-3 lg:ml-5 w-full lg:w-40 rounded"
                   name="last_name"
                   required
                   placeholder="Last Name *"
@@ -92,7 +90,7 @@ export default function Home() {
 
                 <input
                   type="email"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
                   name="user_email"
                   required
                   placeholder="Work Email *"
@@ -101,7 +99,7 @@ export default function Home() {
 
                 <input
                   type="tel"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
                   name="phone"
                   required
                   placeholder="Phone *"
@@ -110,7 +108,7 @@ export default function Home() {
 
                 <input
                   type="text"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
                   name="company_name"
                   required
                   placeholder="Company Name *"
@@ -119,7 +117,7 @@ export default function Home() {
                 <input
                   type="submit"
                   value="DOWNLOAD NOW"
-                  className="shadow-md shadow-gray-400  pl-3 p-2 md:p-3 md:text-xl mt-7 text-white font-bold bg-red-500 rounded px-5 md:px-12"
+                  className="shadow-md shadow-gray-400  pl-3 p-2 md:p-3 md:text-xl mt-3 text-white font-bold bg-red-500 rounded px-5 md:px-12"
                 />
               </form>
             </div>

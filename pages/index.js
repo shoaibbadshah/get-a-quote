@@ -40,10 +40,10 @@ export default function Home() {
         <div className="md:flex">
           {/* left side */}
           <div className="md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64 lg:w-1/2">
-            <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
+            <h1 className="text-2xl font-montserrat md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
               Download our app development portfolio.
             </h1>
-            <p className="text-white mt-5 md:mt-7 lg:mt-10 text-sm md:text-lg lg:2xl text-center md:text-left hidden md:flex">
+            <p className="text-white mt-5 font-montserrat md:mt-7 lg:mt-10 text-sm md:text-lg lg:2xl text-center md:text-left hidden md:flex">
               Complete the following form to download our app and software
               development portfolio.
             </p>
@@ -61,10 +61,10 @@ export default function Home() {
           {/* right side */}
           <div className="flex justify-center p-5 md:mr-3 lg:w-1/2">
             <div className="bg-gray-50 w-fit h-min p-3 md:p-6 border rounded-md">
-              <h2 className="text-black text-xl font-bold">
+              <h2 className="text-black font-montserrat text-xl font-bold">
                 Download Our Portfolio
               </h2>
-              <p className="text-black lg:text-lg mt-3">
+              <p className="text-black font-montserrat lg:text-lg mt-3">
                 To access our portfolio of mobile apps
                 <br /> and web projects, let us know about
                 <br /> you and your business.
@@ -83,7 +83,7 @@ export default function Home() {
 
                 <input
                   type="text"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-5 lg:ml-5 w-full lg:w-40 rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 lg:ml-5 w-full lg:w-40 rounded"
                   name="last_name"
                   required
                   placeholder="Last Name *"
@@ -92,7 +92,7 @@ export default function Home() {
 
                 <input
                   type="email"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-5 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
                   name="user_email"
                   required
                   placeholder="Work Email *"
@@ -101,7 +101,7 @@ export default function Home() {
 
                 <input
                   type="tel"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-5 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
                   name="phone"
                   required
                   placeholder="Phone *"
@@ -110,7 +110,7 @@ export default function Home() {
 
                 <input
                   type="text"
-                  className="border pl-3 p-2 md:p-3 md:text-xl mt-5 w-full rounded"
+                  className="border pl-3 p-2 md:p-3 md:text-xl mt-7 w-full rounded"
                   name="company_name"
                   required
                   placeholder="Company Name *"
@@ -119,7 +119,7 @@ export default function Home() {
                 <input
                   type="submit"
                   value="DOWNLOAD NOW"
-                  className="shadow-md shadow-gray-400  pl-3 p-2 md:p-3 md:text-xl mt-5 text-white font-bold bg-red-500 rounded px-5 md:px-12"
+                  className="shadow-md shadow-gray-400  pl-3 p-2 md:p-3 md:text-xl mt-7 text-white font-bold bg-red-500 rounded px-5 md:px-12"
                 />
               </form>
             </div>

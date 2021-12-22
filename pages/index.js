@@ -2,7 +2,7 @@ import Image from "next/image";
 import emailjs from "emailjs-com";
 
 import style from "../styles/Home.module.css";
-import logo from "../public/logo1.png";
+import logo from "../public/logo2.png";
 import portfolio from "../public/portfolio.png";
 import { Drift } from "react-drift";
 
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div>
       <div className={style.main__img}>
-        <div className="text-center brightness-200 contrast-200 md:text-left md:ml-10 lg:ml-20 xl:ml-30 2xl:ml-64">
+        <div className="flex justify-center md:justify-start brightness-200 contrast-200 md:ml-9 lg:ml-16 xl:ml-16 2xl:ml-60">
           <Image src={logo} width={220} objectFit="contain" height={97} />
         </div>
 
@@ -119,7 +119,7 @@ export default function Home() {
                 <input
                   type="submit"
                   value="DOWNLOAD NOW"
-                  className="border shadow-xl shadow-gray-500  pl-3 p-2 md:p-3 md:text-xl mt-5 text-white font-bold bg-red-500 rounded px-5 md:px-12"
+                  className="shadow-md shadow-gray-400  pl-3 p-2 md:p-3 md:text-xl mt-5 text-white font-bold bg-red-500 rounded px-5 md:px-12"
                 />
               </form>
             </div>

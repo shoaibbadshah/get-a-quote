@@ -38,7 +38,7 @@ export default function Home() {
 
           <div className="md:flex">
             {/* left side */}
-            <div className="md:ml-10 lg:ml-20 xl:ml-32 2xl:ml-64 lg:w-1/2">
+            <div className="md:ml-10 lg:ml-20 xl:ml-32 2xl:ml-64 lg:w-3/5">
               <h1 className="text-2xl font-montserrat md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
                 Download our app development portfolio.
               </h1>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
 
             {/* right side */}
-            <div className="flex justify-center p-5 md:mr-3 lg:w-1/2">
+            <div className="flex justify-center p-5 md:mr-3 lg:w-2/5">
               <div className="bg-gray-50 w-fit h-min p-3 md:p-6 border rounded-md">
                 <h2 className="text-black font-montserrat text-xl font-bold">
                   Download Our Portfolio
@@ -72,7 +72,7 @@ export default function Home() {
                 <form onSubmit={sendEmail} className="mt-5 lg:mt-0">
                   <input
                     type="text"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl w-full lg:w-40 rounded"
+                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl w-full xl:w-40 rounded"
                     name="first_name"
                     required
                     placeholder="First Name *"
@@ -82,7 +82,7 @@ export default function Home() {
 
                   <input
                     type="text"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 lg:ml-5 w-full lg:w-40 rounded"
+                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 xl:ml-5 w-full xl:w-40 rounded"
                     name="last_name"
                     required
                     placeholder="Last Name *"

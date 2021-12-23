@@ -46,7 +46,7 @@ export default function Home() {
                 Complete the following form to receive a free consultation and
                 quote for your app or software development project.
               </p>
-              <ul>
+              <ul className="hidden md:flex md:flex-col">
                 <li className="text-white mt-5 font-montserrat text-xl">
                   • No-Obligation Quote Within 24 Hours
                 </li>
@@ -82,7 +82,7 @@ export default function Home() {
                 <form onSubmit={sendEmail} className="mt-5 lg:mt-0">
                   <input
                     type="text"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl w-full xl:w-40 rounded"
+                    className="border font-montserrat pl-3 p-2 md:p-3 w-full xl:w-40 rounded"
                     name="first_name"
                     required
                     placeholder="First Name *"
@@ -92,7 +92,7 @@ export default function Home() {
 
                   <input
                     type="text"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 xl:ml-5 w-full xl:w-40 rounded"
+                    className="border font-montserrat pl-3 p-2 md:p-3 mt-3 xl:ml-5 w-full xl:w-40 rounded"
                     name="last_name"
                     required
                     placeholder="Last Name *"
@@ -101,7 +101,7 @@ export default function Home() {
 
                   <input
                     type="email"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
+                    className="border font-montserrat pl-3 p-2 md:p-3 mt-3 w-full rounded"
                     name="user_email"
                     required
                     placeholder="Work Email *"
@@ -110,7 +110,7 @@ export default function Home() {
 
                   <input
                     type="tel"
-                    className="border text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
+                    className="border font-montserrat pl-3 p-2 md:p-3 mt-3 w-full rounded"
                     name="phone"
                     required
                     placeholder="Phone *"
@@ -119,7 +119,7 @@ export default function Home() {
 
                   <input
                     type="text"
-                    className="border font-montserrat text-black pl-3 p-2 md:p-3 mt-3 w-full rounded"
+                    className="border font-montserrat pl-3 p-2 md:p-3 mt-3 w-full rounded"
                     name="company_name"
                     required
                     placeholder="Company Name *"
@@ -138,7 +138,7 @@ export default function Home() {
                   <input
                     type="submit"
                     value="DOWNLOAD NOW"
-                    className="shadow-md shadow-gray-400 text-xs font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 text-white md:font-bold bg-red-500 rounded px-5 md:px-12"
+                    className="shadow-md shadow-gray-400 text-xs font-montserrat pl-3 p-2 md:p-3 md:text-base mt-3 text-white md:font-bold bg-red-500 rounded px-5 md:px-7"
                   />
                 </form>
               </div>

@@ -7,12 +7,6 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat"],
-        lato: ["Lato"],
-        garamond: ["Garamond"],
-      },
-      backgroundImage: {
-        team: "url('/team.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
       },
     },
   },

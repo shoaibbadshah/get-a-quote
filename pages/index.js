@@ -38,7 +38,7 @@ export default function Home() {
 
           <div className="md:flex">
             {/* left side */}
-            <div className="md:ml-10 lg:ml-20 xl:ml-32 2xl:ml-64 lg:w-3/5">
+            <div className="md:ml-10 lg:ml-20 xl:ml-32 2xl:ml-64 lg:w-1/2">
               <h1 className="text-2xl font-montserrat md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
                 Start building your app today.
               </h1>
@@ -69,15 +69,14 @@ export default function Home() {
             </div>
 
             {/* right side */}
-            <div className="flex justify-center p-5 md:mr-3 lg:w-2/5">
+            <div className="p-5 md:mr-3 lg:w-1/2">
               <div className="bg-gray-50 w-fit h-min p-3 md:p-6 border rounded-md">
                 <h2 className="text-black font-montserrat text-xl font-bold">
-                  Download Our Portfolio
+                  Get A Free Quote
                 </h2>
                 <p className="text-gray-500 font-montserrat lg:text-lg mt-3">
-                  To access our portfolio of mobile apps
-                  <br /> and web projects, let us know about
-                  <br /> you and your business.
+                  Tell us a little bit more about your
+                  <br /> project and we’ll provide you with a<br /> quote.
                 </p>
                 {/* form here */}
                 <form onSubmit={sendEmail} className="mt-5 lg:mt-0">
@@ -120,10 +119,20 @@ export default function Home() {
 
                   <input
                     type="text"
-                    className="border text-lg font-montserrat pl-3 p-2 md:p-3 md:text-xl mt-3 w-full rounded"
+                    className="border font-montserrat text-black pl-3 p-2 md:p-3 mt-3 w-full rounded"
                     name="company_name"
                     required
                     placeholder="Company Name *"
+                  />
+
+                  <br />
+
+                  <textarea
+                    type="text"
+                    className="border font-montserrat pl-3 p-2 md:p-3 mt-3 w-full rounded"
+                    name="company_name"
+                    required
+                    placeholder="Tell us about your project!"
                   />
                   <br />
                   <input

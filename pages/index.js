@@ -57,7 +57,7 @@ export default function Home() {
                   • Free Technical Analysis
                 </li>
               </ul>
-              <div className="text-center mt-10">
+              <div className="text-center mt-10 xl:mt-2">
                 <Image
                   className="text-center"
                   src={portfolio}
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
 
             {/* right side */}
-            <div className="p-5 md:mr-3 lg:w-1/2">
+            <div className="p-5 md:mr-3 lg:w-1/2 flex justify-center md:justify-start">
               <div className="bg-gray-50 w-fit h-min p-3 md:p-6 border rounded-md">
                 <h2 className="text-black font-montserrat text-xl font-bold">
                   Get A Free Quote

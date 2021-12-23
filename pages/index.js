@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 
 import style from "../styles/Home.module.css";
 import logo from "../public/logo2.png";
-import portfolio from "../public/portfolio.png";
+import portfolio from "../public/quote.png";
 import { Drift } from "react-drift";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div>
       <div className={style.main__img}>
-        <div className="md:h-screen">
+        <div className="2xl:h-screen">
           <div className="flex justify-center md:justify-start brightness-200 contrast-200 md:ml-9 lg:ml-16 xl:ml-28 2xl:ml-60">
             <Image src={logo} width={220} objectFit="contain" height={97} />
           </div>
@@ -40,13 +40,24 @@ export default function Home() {
             {/* left side */}
             <div className="md:ml-10 lg:ml-20 xl:ml-32 2xl:ml-64 lg:w-3/5">
               <h1 className="text-2xl font-montserrat md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mt-10 text-center md:text-left hidden md:flex">
-                Download our app development portfolio.
+                Start building your app today.
               </h1>
-              <p className="text-white mt-5 font-montserrat md:mt-7 lg:mt-10 text-sm md:text-lg lg:2xl text-center md:text-left hidden md:flex">
-                Complete the following form to download our app and software
-                development portfolio.
+              <p className="text-white mt-5 font-montserrat md:mt-7 lg:mt-10 text-sm md:text-lg text-center md:text-left hidden md:flex">
+                Complete the following form to receive a free consultation and
+                quote for your app or software development project.
               </p>
-              <div className="text-center mt-10 md:mb-14 xl:mb-16 2xl:mb-20">
+              <ul>
+                <li className="text-white mt-5 font-montserrat text-xl">
+                  • No-Obligation Quote Within 24 Hours
+                </li>
+                <li className="text-white mt-2 font-montserrat text-xl">
+                  • Free Consultation With A Project Manager
+                </li>
+                <li className="text-white mt-2 font-montserrat text-xl">
+                  • Free Technical Analysis
+                </li>
+              </ul>
+              <div className="text-center mt-10">
                 <Image
                   className="text-center"
                   src={portfolio}
